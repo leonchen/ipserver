@@ -1,0 +1,10 @@
+{
+  "name": "ipserver",
+  "description": "get dynamic public ip",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.0.3",
+    "forever": "0.10.0",
+    "jade": "0.27.7"
+  }
+}

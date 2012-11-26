@@ -1,0 +1,28 @@
+!!!
+html
+  head
+    style
+      table {
+        border: 1px solid #333;
+        border-collapse: collapse;
+      } 
+      th {
+        background-color: #333;
+        color: #fff;
+        font-weight: bold;
+      }
+      td {
+        border: 1px solid #333;
+        padding: 5px 10px;
+      }
+  body
+    table
+      tr
+        th Server
+        th IP
+        th Last update
+      each ip in list
+        tr
+          td= ip.server
+          td= ip.ip
+          td= ip.lastUpdate 
